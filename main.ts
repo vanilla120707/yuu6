@@ -9,5 +9,5 @@ input.onGesture(Gesture.Shake, function () {
     basic.showNumber(no / 1)
 })
 let no = 0
-basic.showIcon(IconNames.SmallHeart)
+basic.showIcon(IconNames.Heart)
 music.startMelody(music.builtInMelody(Melodies.Nyan), MelodyOptions.Once)
